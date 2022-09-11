@@ -25,5 +25,17 @@ public class Main {
         }
         // Задача 3
         System.out.println("Задача 3");
+        int seat = 10; // Занято мест
+        if (seat < 60) {
+            System.out.println("В вагоне есть сидячее место");
+        }
+        if (seat >= 60)
+        if (seat < 102) {
+            System.out.println("В вагоне есть стоячее место");
+        }
+        if (seat > 101) {
+            System.out.println("Вагон уже полностью забит");
+        }
+
     }
 }
