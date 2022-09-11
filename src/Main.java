@@ -12,12 +12,10 @@ public class Main {
         // Задача 2
         System.out.println("Задача 2");
         int age1 = 17;
-        if (age1 >=7)
-        if (age1 < 18) {
+        if (age1 >=7 && age < 18) {
             System.out.println("Ребенок ходит в школу");
         }
-        if (age1 >= 18)
-        if (age1 < 24) {
+        if (age1 >=18 && age < 24) {
             System.out.println("Человек уже закончил школу и может отправляться в университет");
         }
         if (age1 >= 24) {
@@ -25,16 +23,23 @@ public class Main {
         }
         // Задача 3
         System.out.println("Задача 3");
-        int seat = 10; // Занято мест
-        if (seat < 60) {
-            System.out.println("В вагоне есть сидячее место");
+        int capacity = 102;
+        int seatsCount =60;
+        int otherCount = capacity - seatsCount; // стоячие места
+
+        int seatsUsed = 60;
+        int otherUsed = 41;
+        if (seatsUsed < seatsCount) {
+            System.out.println("Еще есть " + (seatsCount - seatsUsed) + " сидячих мест");
         }
-        if (seat >= 60)
-        if (seat < 102) {
-            System.out.println("В вагоне есть стоячее место");
+        if (seatsUsed == seatsCount){
+            System.out.println("Сидячих мест нет");
         }
-        if (seat > 101) {
-            System.out.println("Вагон уже полностью забит");
+        if (otherUsed < otherCount) {
+            System.out.println("Еще есть " + (otherCount - otherUsed) + " стоячих мест");
+        }
+        if (otherUsed == otherCount) {
+            System.out.println("Стоячих мест нет");
         }
 
     }
