@@ -54,8 +54,17 @@ public class Main {
         else {
             System.out.println("Возраст совершеннолетия ещё не наступил, нужно немного подождать");
         }
-
-
+        // Задача 2
+        System.out.println("Задача 2");
+        if (yearsOld >=7 && yearsOld < 18) {
+            System.out.println("Ребенок ходит в школу");
+        }
+        else if (yearsOld >=18 && yearsOld < 24) {
+            System.out.println("Человек уже закончил школу и может отправляться в университет");
+        }
+        else if (yearsOld >=24){
+            System.out.println("Человек окончил университет и ему пора искать первую работу");
+        }
 
     }
 }
