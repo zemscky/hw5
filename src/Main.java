@@ -83,6 +83,20 @@ public class Main {
         } else {
             System.out.println("Стоячих мест нет");
         }
+        // Домашняя работа 3
+        System.out.println("Домашняя работа 3");
+        // Задача 1
+        System.out.println("Задача 1");
+        int years = 20;
+        if (years >= 2 && years <= 6) {
+            System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить в детский сад");
+        } else if (years >= 7 && years <= 18) {
+            System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить в школу");
+        } else if (years > 18 && years < 24) {
+            System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить в университет");
+        } else if (years > 24) {
+            System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить на работу");
+        }
 
     }
 }
