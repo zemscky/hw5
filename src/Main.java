@@ -65,6 +65,24 @@ public class Main {
         else if (yearsOld >=24){
             System.out.println("Человек окончил университет и ему пора искать первую работу");
         }
+        // Задача 3
+        System.out.println("Задача 3");
+        int seatsTotal = 102;
+        int seatsCount1 =60;
+        int otherCount1 = seatsTotal - seatsCount1; // стоячие места
+
+        int seatsUsed1 = 60;
+        int otherUsed1 = 41;
+        if (seatsUsed1 < seatsCount1) {
+            System.out.println("Еще есть " + (seatsCount1 - seatsUsed1) + " сидячих мест");
+        } else {
+            System.out.println("Сидячих мест нет");
+        }
+        if (otherUsed1 < otherCount1) {
+            System.out.println("Еще есть " + (otherCount1 - otherUsed1) + " стоячих мест");
+        } else {
+            System.out.println("Стоячих мест нет");
+        }
 
     }
 }
