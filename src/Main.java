@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+        // Домашняя работа 1
+        System.out.println("Домашняя работа 1");
         // Задача 1
         System.out.println("Задача 1");
         int age = 17;
@@ -41,6 +43,19 @@ public class Main {
         if (otherUsed == otherCount) {
             System.out.println("Стоячих мест нет");
         }
+        // Домашняя работа 2
+        System.out.println("Домашняя работа 2");
+        // Задача 1
+        System.out.println("Задача 1");
+        int yearsOld = 27;
+        if (yearsOld >=18) {
+            System.out.println("Поздравление пользователя с совершеннолетием");
+        }
+        else {
+            System.out.println("Возраст совершеннолетия ещё не наступил, нужно немного подождать");
+        }
+
+
 
     }
 }
